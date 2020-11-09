@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="images/favicon.png">
+</head>
+<body>
+
+	<!-- header -->
+	<header>
+		<div class="container flex align-center">
+			<div class="logo">
+				<a href="index.html">
+					<img src="images/logo.png" alt="logo">
+				</a>
+			</div>
+
+			<nav>
+				<ul class="flex">
+					<li> <a href="index.html">Home</a></li>
+					<li> <a href="about.html">About</a></li>
+					<li> <a href="login.html">login</a></li>
+					<li> <a href="signup.html">Signup</a></li>
+				</ul>
+			</nav>
+		</div>	
+	</header>
+	<!-- header -->
+	<!-- signup-form-section -->
+	<section class="signup-form">
+		<div class="container flex justify-center">
+			<div class="signup">
+
+				<form>
+					<label for="name">Full Name</label>
+					<input id="name" type="text" autocomplete="off">
+					<label for="email">Email Address</label>
+					<input id="email" type="email" autocomplete="off">
+
+					<label for="pass">Password</label>
+					<input id="pass" type="Password">
+					<label for="cp">Confirm Password</label>
+					<input id="cp" type="Password">
+
+					<strong>Select Your Gender</strong>					
+					<input id="male" type="radio" name="gender">
+					<label for="male">Male</label>				
+					<input id="female" type="radio" name="gender">
+					<label for="female">Female</label>				
+					<input id="other" type="radio" name="gender">
+					<label for="other">Other</label>
+
+					<strong>Select Your Skills</strong>	
+					<input id="wd" type="checkbox" name="Skills">
+					<label for="wd">Web Design</label>
+					<input id="wp" type="checkbox" name="Skills">
+					<label for="wp">Wordpress</label>
+					<input id="theme" type="checkbox" name="Skills">
+					<label for="theme">Theme</label>
+					<input id="php" type="checkbox" name="Skills">
+					<label for="php">PHP</label>
+
+					<strong>Message</strong>
+					<textarea rows="5"></textarea>
+
+					<input type="submit" name="" value="Sign Up">
+
+					<p>I have an account. <a href="login.html">login</a></p>
+					
+				</form>
+				
+			</div>
+		</div>
+	</section>
+	<!-- signup-form-section -->
+
+</body>
+</html>

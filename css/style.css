@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background: #da5555;
+}
+img{
+    max-width: 100%;
+}
+li{
+    list-style: none;
+}
+.container{
+    width: calc(100% - 250px);
+    margin: auto;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.col{
+    width: 25%;
+    padding: 20px;
+    flex: 0 0 auto;
+}
+header{
+    padding: 15px 0;
+    box-shadow: 0px 0px 10px #ce8080;
+    background: #fff;
+}
+.logo{
+    width: 20%;
+    flex: 0 0 auto;
+}
+.logo a{}
+.logo a img{
+    width: 45px;
+    margin-top: 5px;
+}
+
+nav{
+    width: 80%;
+    flex: 0 0 auto;
+}
+nav ul{
+    justify-content: flex-end;
+}
+nav ul li{}
+nav ul li a{
+    text-decoration: none;
+    color: #da5555;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 18px 25px;
+    display: block;
+    transition-duration: 0.5s;
+}
+nav ul li a:hover{
+    color: white;
+    background: #921a1a;
+    border-radius: 50%;
+    
+}
+
+section{
+    padding: 75px 0;
+}
+
+/******* signup-form-section *******/
+.signup-form{}
+.signup{
+    width: 40%;
+    flex: 0 0 auto;
+    padding: 40px;
+    color: #ffd1c8;
+    background-color: #da5555;
+    box-shadow: 20px 20px 60px #673232, -20px -20px 60px #ce4c4c;
+    transition-duration: 0.5s;
+}
+.signup:hover{
+    box-shadow: 20px 20px 60px #ce4c4c, -20px -20px 60px #673232;
+}
+
+
+form{}
+form label{
+    font-size: 20px;
+    font-weight: 300;
+    margin-right: 12px;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+form input, form textarea{
+    width: 100%;
+    padding: 7px 5px;
+    border: 2px solid #cc4949;
+    background: #ce4c4c;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+form strong{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 25px 0 5px;
+}
+form textarea{}
+
+form input[type="radio"],[type="checkbox"]{
+    width: auto;
+}
+
+form input[type="submit"]{
+    width: auto;
+    background: #921a1a;
+    font-size: 18px;
+    padding: 8px 20px;
+    color: #cccac7;
+    font-weight: bold;
+}
+/***** login-section *****/
+form p{}
+form p a{
+    color: #921a1a;
+    font-size: 18px;
+    font-weight: 900;
+    margin-left: 10px;
+    text-decoration: none;
+}
+form p a:hover{}
+input:focus, textarea:focus{
+    outline: none;
+    background: #921a1a;
+}
+/******* portfolio-section *******/
+.portfolio-section{}
+.project{
+    display: block;
+    text-decoration: none;
+    border-radius: 10px;
+
+    background-color: #da5555;
+    box-shadow: 20px 20px 60px #673232, -20px -20px 60px #ce4c4c;
+}
+.project img{
+    height: 225px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.project h2{
+    color: #eadcc0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px 10px;
+}
+.project:hover{
+    opacity: 0.5;
+}
+
+
+/********* about-section *********/
+.about-section{}
+.about-section h1{
+    color: #ffe9cc;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+.about-section p{
+    color: #fff2e1;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+.about-section article{}
